@@ -7,7 +7,7 @@
     <groupId>com.smdbl.gitstudy</groupId>
     <artifactId>gitstudy</artifactId>
     <packaging>pom</packaging>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.0</version>
     <modules>
         <module>gitstudy-common</module>
     </modules>
@@ -15,18 +15,13 @@
     <build>
         <plugins>
             <plugin>
-                <groupId>external.atlassian.jgitflow</groupId>
-                <artifactId>jgitflow-maven-plugin</artifactId>
-                <version>1.0-m5.1</version>
+                <groupId>com.amashchenko.maven.plugin</groupId>
+                <artifactId>gitflow-maven-plugin</artifactId>
+                <version>1.9.0</version>
                 <configuration>
-                    <autoVersionSubmodules>true</autoVersionSubmodules>
-                    <pushReleases>true</pushReleases>
-                    <keepBranch>false</keepBranch>
-                    <noDeploy>true</noDeploy>
-                    <flowInitContext>
-                        <developBranchName>dev</developBranchName>
-                        <versionTagPrefix>release/</versionTagPrefix>
-                    </flowInitContext>
+                    <gitFlowConfig>
+                        <developmentBranch>dev</developmentBranch>
+                    </gitFlowConfig>
                 </configuration>
             </plugin>
         </plugins>
