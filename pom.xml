@@ -19,6 +19,8 @@
                 <artifactId>gitflow-maven-plugin</artifactId>
                 <version>1.9.0</version>
                 <configuration>
+                    <keepBranch>false</keepBranch>
+                    <allowSnapshots>true</allowSnapshots>
                     <gitFlowConfig>
                         <developmentBranch>dev</developmentBranch>
                     </gitFlowConfig>
