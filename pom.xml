@@ -7,7 +7,7 @@
     <groupId>com.smdbl.gitstudy</groupId>
     <artifactId>gitstudy</artifactId>
     <packaging>pom</packaging>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.0.1-manager-SNAPSHOT</version>
     <modules>
         <module>gitstudy-common</module>
     </modules>
