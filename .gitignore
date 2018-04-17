@@ -1,0 +1,11 @@
+.gradle/
+reports/
+generated/
+.metadata/
+target/
+.settings/
+.classpath
+.project
+RemoteSystemsTempFiles/
+*.iml
+.idea/
